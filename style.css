@@ -1,5 +1,7 @@
 
-
+#White{
+    color: white;
+}
 
 #Red{
     color: red;
@@ -20,4 +22,41 @@
 .Blue{
     color: blue;
 }
+
+.Pos{
+    position: relative;
+    
+}
+
+#container{
+    border: 5px, dashed, rgb(255, 255, 255);
+}
+
+#container p{
+background-color: yellow;
+}
+
+#container2 > p{
+    background-color: yellow;
+    }
+
+  #button:hover{
+    background-color: blueviolet;
+    
+  }
+  #li:hover{
+    background-color: rgb(43, 165, 226);
+    
+  }
+  #li:not(:hover){
+    background-color: rgb(226, 43, 165);
+    
+  }
+  #button:active{
+    background-color: rgb(43, 226, 101);
+    
+  }
+
+    
+
 

@@ -9,7 +9,7 @@
     <link rel="">
     
 </head>
-<body style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0.5px;">
+<body  style= "display: flow-root; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0.5px;">
     <h1  >Page 2 of HTML Website</h1>
     <h6 ><i>Page 2 really wow</i></h6>
    
@@ -29,15 +29,115 @@
     <h4  style="border: 5px, solid, brown;">Another One</h4>
 
     <hr>
-    <h3><div style="background-color: gray;">Shadows</div></h3> 
-    <div style="width: 50px; height: 50px; background-color: gray;">Useless Text</div>
-    <a href="index.html"
+    <h3><div style="background-color: gray;">Float</div></h3> 
+
+    <div  style="display: flow-root;  border: 5px, dashed, black;">
+        <img src="images/skibidi_toilet.jpg" height="250px" style="float: right; margin-right: 10px;">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos ratione atque. Quibusdam voluptate expedita quidem! Placeat numquam explicabo illo fuga enim, cum eum ab dolores ipsa aperiam vel sapiente.</p>   
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos ratione atque. Quibusdam voluptate expedita quidem! Placeat numquam explicabo illo fuga enim, cum eum ab dolores ipsa aperiam vel sapiente.</p>   
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos ratione atque. Quibusdam voluptate expedita quidem! Placeat numquam explicabo illo fuga enim, cum eum ab dolores ipsa aperiam vel sapiente.</p>   
+    </div>
+<br>
+<br>
+    <div style="border: 5px, dashed, black;">
+        <img src="images/tsb.png" height="75px" style="float: left; margin-left: 10px;">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos ratione atque. Quibusdam voluptate expedita quidem! Placeat numquam explicabo illo fuga enim, cum eum ab dolores ipsa aperiam vel sapiente.</p>   
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos ratione atque. Quibusdam voluptate expedita quidem! Placeat numquam explicabo illo fuga enim, cum eum ab dolores ipsa aperiam vel sapiente.</p>   
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos ratione atque. Quibusdam voluptate expedita quidem! Placeat numquam explicabo illo fuga enim, cum eum ab dolores ipsa aperiam vel sapiente.</p>   
+    </div>
+  
+  
+    <br>
+    <br>
+    <h3>Overflow</h3>
+    <h4>Visible</h4>
+    <div style="border: 5px, solid, gray; height: 30px;">
+        <h4 style="overflow: visible;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Optio quasi rem dolore doloribus animi deleniti consequuntur omnis, dolor dolores, doloremque, 
+             sequi porro itaque ducimus pariatur officiis quae laborum corrupti quidem.</h4>
+
+    </div>
+    <br>
+    <h4>Hidden</h4>
+    <h1 style="overflow: hidden;   border: 5px, solid, black ;height: 75px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis similique aperiam eaque eligendi? Asperiores atque tempore voluptatibus veniam quaerat. Exercitationem velit excepturi unde voluptates officia voluptatum dolorem sapiente, labore nihil!</h1>
+    <br>
+    <br>
+    <h4>Clip</h4>
+    <h1 style="overflow: clip; overflow-clip-margin: 12px;   border: 5px, solid, black ;height: 75px;">Lorem ipsum dolor sit amet
+         consectetur adipisicing elit. Facilis similique aperiam eaque eligendi? Asperiores atque tempore 
+         voluptatibus veniam quaerat. Exercitationem velit excepturi unde voluptates officia voluptatum dolorem sapiente,
+          labore nihil!</h1>
+
+          <br>
+    <br>
+    <h4>Scroll</h4>
+    <h1 style="overflow: scroll;    border: 5px, solid, black ;height: 75px; width: 150px;">Lorem ipsum dolor sit amet
+         consectetur adipisicing elit. Facilis similique aperiam eaque eligendi? Asperiores atque tempore 
+         voluptatibus veniam quaerat. Exercitationem velit excepturi unde voluptates officia voluptatum dolorem sapiente,
+          labore nihil!</h1>
+
+          <br>
+    <h4>Auto (Make the page smaller)</h4>
+    <h1 style="overflow: auto;    border: 5px, solid, black ;height: 75px;">Lorem ipsum dolor sit amet
+         consectetur adipisicing elit. Facilis similique aperiam eaque eligendi? Asperiores atque tempore 
+         voluptatibus veniam quaerat. Exercitationem velit excepturi unde voluptates officia voluptatum dolorem sapiente,
+          labore nihil!</h1>
+          <br>
+          <br>
+          <h3>Display property</h3>
+          <div style="background-color: red; display: inline-block; " > <h2>div</h2> </div>
+            <span style="background-color: blue;">span</span>
+
+         <br>
+         <br>
+         <h3>Positions</h3>
+         <div  style="height: 100px; width: 100px; background-color: aqua;  position: relative; left: 50px;" >
+           <h3>relative: left: 50px</h3>
+          
+        </div>
+
+        <div  style="border-radius:20px; height: 100px; width: 100px; background-color: rgb(255, 55, 0);  position: relative; left: 175px; top: -100px;" >
+           <div style="border-radius:20px;  position: absolute; height: 75px; background-color: black; color: white;">absolute</div>
+        </div>
+
+        <div  style="border-radius:20px; height: 100px; width: 100px; background-color: rgb(77, 9, 65);  position: sticky;  top: 0px;" >
+        <h3 style="position: relative; left: 10px;">sticky</h3>
+        </div>
+
+        <div  style="border-radius:20px; height: 100px; width: 100px; background-color: rgb(34, 255, 0);  position: static; " >
+            static
+         </div>
+         <br>
+         <h3>yeah i think im sticking with <i style="color: red; ">relative </i> or <i style="color: rgb(0, 13, 255); " >absolute</i> lol</h3>
+ 
+
+     
+        
+
+        
+
+          
+          
+<br>
+<br>
+<br>
+<img src="images/smile.jpg" style="height: 25px; position: relative; left: 122px; top: -10px;">
+
+      <a href="page3.html"
     target="_blank"
     >
-    <br>
-    <br>
-    
-    <button>Page 1</button>
-</a>
+    <button style=" position: relative; left: 0px; border-color: black; border-radius: 5px;">Go to page 3</button>
+    </a>
+<br>
+<br>
+      <a href="index.html"
+    target="_blank"
+    >
+    <button style="  border-color: black; border-radius: 5px;">Go back to page 1</button>
+    </a>
+
+
 </body>
 </html>
